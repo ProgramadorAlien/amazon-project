@@ -4,7 +4,7 @@ import {products} from '../data/products.js';
 let productsHTML = '';
 
 products.forEach((product) => {
-  productsHTML += `
+  productsHTML += `  
     <div class="product-container">
       <div class="product-image-container">
         <img class="product-image"
